@@ -8,6 +8,7 @@ extends Node3D
 @export var sensitivity = 0.1
 @export var speed:float = 1.0
 
+
 var controlling = true
 
 var left:XRController3D
