@@ -1,7 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://brjv42dbxwqmr"]
+[gd_scene load_steps=3 format=3 uid="uid://brjv42dbxwqmr"]
 
 [ext_resource type="PackedScene" uid="uid://cnspp8ib8hb20" path="res://behaviors/Body.tscn" id="1_abs15"]
+[ext_resource type="Script" path="res://behaviors/NoiseWander.gd" id="1_wjn83"]
 
 [node name="CSGBox3D" type="CSGBox3D"]
+script = ExtResource("1_wjn83")
 
 [node name="CSGBox3D" parent="." instance=ExtResource("1_abs15")]
