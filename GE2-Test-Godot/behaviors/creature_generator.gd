@@ -7,7 +7,6 @@ extends Node3D
 @export var base_size: float = 1.0
 @export var multiplier: float = 5.0
 
-
 func _process(delta):
 	var yAxis = 0
 	for i in range(length):
